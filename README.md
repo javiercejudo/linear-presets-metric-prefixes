@@ -12,15 +12,9 @@ Linear presets for metric prefixes
 
 ## Presets
 
-Base: [Celsius](https://en.wikipedia.org/wiki/Celsius)
+All 20 prefixes specified by the [International Bureau of Weights and Measures (BIPM)](https://en.wikipedia.org/wiki/International_Bureau_of_Weights_and_Measures).
 
-- [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit)
-- [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
-- [Rankine](https://en.wikipedia.org/wiki/Rankine_scale)
-- [Delisle](https://en.wikipedia.org/wiki/Delisle_scale)
-- [Newton](https://en.wikipedia.org/wiki/Newton_scale)
-- [Reaumur](https://en.wikipedia.org/wiki/Réaumur_scale)
-- [Romer](https://en.wikipedia.org/wiki/Rømer_scale)
+See [Metric prefix on Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix).
 
 ## Related projects
 
