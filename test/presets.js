@@ -18,7 +18,8 @@ function invert(preset) {
 
 describe('metric prefixes presets', function() {
   it('should convert correctly', function() {
-    (1).should.be.approximately(convert(1e-24, invert(metric.none_yotta)), 1e-15, 'none_yotta')
+    (1).should.be.exactly(convert(1, invert(metric.none_none)), 'none_none')
+      .and.approximately(convert(1e-24, invert(metric.none_yotta)), 1e-15, 'none_yotta')
       .and.approximately(convert(1e-21, invert(metric.none_zetta)), 1e-15, 'none_zetta')
       .and.exactly(convert(1e-18, invert(metric.none_exa)), 'none_exa')
       .and.exactly(convert(1e-15, invert(metric.none_peta)), 'none_peta')
@@ -39,7 +40,8 @@ describe('metric prefixes presets', function() {
       .and.exactly(convert(1e21, invert(metric.none_zepto)), 'none_zepto')
       .and.exactly(convert(1e24, invert(metric.none_yocto)), 'none_yocto');
 
-    (0).should.be.exactly(convert(0, metric.none_yotta), 'none_yotta')
+    (0).should.be.exactly(convert(0, metric.none_none), 'none_none')
+      .and.exactly(convert(0, metric.none_yotta), 'none_yotta')
       .and.exactly(convert(0, metric.none_zetta), 'none_zetta')
       .and.exactly(convert(0, metric.none_exa), 'none_exa')
       .and.exactly(convert(0, metric.none_peta), 'none_peta')
