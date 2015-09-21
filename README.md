@@ -18,5 +18,6 @@ See [Metric prefix on Wikipedia](https://en.wikipedia.org/wiki/Metric_prefix).
 
 ## Related projects
 
+- [unit-synonyms-metric-prefixes](https://github.com/javiercejudo/unit-synonyms-metric-prefixes): metric prefixes synonyms.
 - [linear-presets](https://github.com/javiercejudo/linear-presets): linear presets for common units.
 - [linear-converter](https://github.com/javiercejudo/linear-converter): flexible linear converter.
